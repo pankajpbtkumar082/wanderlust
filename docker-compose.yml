@@ -1,7 +1,7 @@
 services:
   wanderlust:
     build:
-      context: .
+      context: ./backend
       dockerfile: Dockerfile
     container_name: wanderlust-app
     ports:
